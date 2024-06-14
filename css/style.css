@@ -33,8 +33,8 @@
     font-size: 30px;
     font-weight: bolder;
     /* text-transform: ; */
-    
-    
+
+
 }
 
 .logo a {
@@ -47,7 +47,7 @@
 
 .logo img {
     width: 100px;
-    
+
 }
 
 .navbar ul {
@@ -114,7 +114,7 @@
     font-weight: bold;
 }
 
-button {
+.bttn {
     width: 200px;
     padding: 15px 0;
     text-align: center;
@@ -151,23 +151,22 @@ button:hover span {
     border: none;
 } */
 
-#btn1:hover {
+.bttn:hover {
     background-color: rgb(149, 156, 45);
 }
 
-#btn2:hover {
+/* #btn2:hover {
     background-color: rgb(149, 156, 45);
 }
 
 #btn3:hover {
     background-color: blue;
-}
+} */
 
 .about-section {
-   height: 80vh;
-   margin: 0;
-    background-color:rgb(245, 188, 188);
-
+    height: 80vh;
+    margin: 0;
+    background-color: rgb(245, 188, 188);
 
 }
 
@@ -176,18 +175,20 @@ button:hover span {
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(7, 7, 7);
-    
+
 }
 
 .about-section p {
-margin-top: 10px;
-text-align: justify;
+    margin-top: 10px;
+    text-align: justify;
 
 }
 
 .images img {
-border-radius: 400px;
-width: 250px;
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    margin: 60px;
 }
 
 .about-text {
@@ -199,7 +200,7 @@ width: 250px;
 
 }
 
-.main-text{
+.main-text {
     display: flex;
     flex-direction: column;
 }
@@ -211,12 +212,319 @@ width: 250px;
 
 #discover-btn {
     margin-top: 20px;
-    background-color:  rgb(73, 16, 35);
+    background-color: rgb(73, 16, 35);
     font-family: 'Times New Roman', Times, serif;
+    border-radius: 40px;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
 }
 
 #discover-btn a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+
+}
+
+.service {
+    display: flex;
+    gap: 30px;
+    padding: 5rem 5rem;
+    background-color: rgb(247, 222, 209);
+}
+
+.text-style {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 600px;
+}
+
+.text-style h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(7, 7, 7);
+
+}
+
+.text-style p {
+    margin: 15px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+.ts-p {
+    margin-top: -20px;
+}
+
+#buttons {
+    margin-top: 10px;
+    background-color: rgb(73, 16, 35);
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+#buttons {
+    margin-top: 10px;
+    background-color: rgb(128, 99, 109);
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 40px;
+    height: 40px;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+    border: white;
+    font-size: 12px;
+}
+
+
+#buttons:hover {
+    background-color: rgb(149, 156, 45);
+}
+
+#buttons:hover {
+    background-color: rgb(149, 156, 45);
+}
+
+.categories {
+    background-color: #fcfcfc;
+    padding-top: 5rem;
+}
+
+.categories img {
+    width: 40vw;
+    height: 30vh;
+    margin-left: 5rem;
+    margin-top: -10px;
+}
+
+.browse {
+    display: flex;
+    font-size: 18px;
+    /* margin-left: 70px; */
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.categories-div {
+    display: flex;
+    margin-left: 4rem;
+    gap: 2rem;
+}
+
+#cat-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: none;
+}
+
+#browse {
+    margin-top: -2px;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#browse h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#ourbeauty h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#ourbeauty {
+    margin-top: 3rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: x-large;
+    font-stretch: expanded;
+}
+
+.categories-div h3 {
+    margin-bottom: 1rem;
+}
+
+#txt {
+    display: flex;
+    gap: 200px;
+
+}
+
+.categories-div p {
+    font-weight: 100;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 2rem;
+}
+
+#categories-btn {
+    margin-top: 20px;
+    background-color: rgb(243, 47, 112);
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 40px;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+
+    text-align: center;
+}
+
+.categories-btn1 {
+    margin-left: 45%;
+    padding-bottom: 3%;
+}
+
+.categories-btn1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.gal h2 {
+    text-align: center;
+    margin-top: 4%;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+/* Contact form styles */
+.contact {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-top: 4%;
+    justify-content: center;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #ff69b4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #ff85c0;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0 20px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+}
+
+
+.footer-section {
+    flex: 1;
+    margin: 20px;
+}
+
+
+.footer-section h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
+.footer-section p,
+.footer-section ul,
+.footer-section a {
+    font-size: 14px;
+    color: #bbb;
+    text-decoration: none;
+}
+
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+
+.footer-section ul li a:hover,
+.footer-section a:hover {
+    color: #fff;
+}
+
+
+.footer-section .social a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+.footer-section .social img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #1e1e1e;
+    padding-top: 20px;
 }
